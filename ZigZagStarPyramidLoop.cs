@@ -1,6 +1,6 @@
 using System;
 
-namespace dotNetCoreConsole
+namespace zigZagStarPyramidLoop
 {
     class Program
     {
