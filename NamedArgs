@@ -1,0 +1,19 @@
+using System;
+
+namespace dotNetCoreConsole
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            int res = Area(w: 5, h: 8); // Assigning with Named Args in Any Order
+            Console.WriteLine(res); // with variable assignment
+            Console.WriteLine(Area(w: 4, h: 5)); //direct call to func and print
+        }
+        static int Area(int h, int w) //Func
+            {
+            return h * w;
+            }
+    }
+}
