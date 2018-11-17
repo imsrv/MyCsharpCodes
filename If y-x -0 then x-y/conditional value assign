@@ -1,0 +1,21 @@
+using System;
+
+namespace dotNetCoreConsole
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            static int Area(int h, int w)
+            {
+            return h * w;
+            }
+            
+            int x = 4; int y = 9;
+            x = (y%x != 0) ? y/x : y; // If y%x !=0 then x=y/x else x=y
+            Console.WriteLine("{0}",x);
+            Console.ReadLine();
+        }
+    }
+}
